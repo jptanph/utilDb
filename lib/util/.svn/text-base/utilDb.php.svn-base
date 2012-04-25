@@ -1,0 +1,124 @@
+<?php
+
+/**
+* @author Arden Vallente <vallente@simplexi.com>
+* @version 1.0
+* 
+* Connect to database if $GLOBALS['DATABASE_INSTANCE'] is equal to null.
+* This class execute sql statement and return the result.	
+*/
+
+require('Db/utilDbConnection.php');
+require('Db/utilDbQuery.php');
+require('Db/utilDbExeption.php');
+class utilDb
+{
+	public $con            = null;
+	protected $result      = null;
+	protected $database    = '';
+	private $logs          = array();
+	
+	/*
+	* Constructor
+	* @return void	
+	*/
+	public function __construct()
+	{
+		if (empty($GLOBALS['DATABASE_INSTANCE']) === true) {
+			$this->con = utilDbConnection::getInstance();
+			$GLOBALS['DATABASE_INSTANCE'] = $this->con;
+		} else {
+			$this->con = $GLOBALS['DATABASE_INSTANCE'];
+		}
+	}
+
+	/*
+	* Execute sql statement such as: select, insert, update and delete.
+	* @param string $sql => sql query string.
+	* @param string $type(optional) => default rows. value can be rows|row. 
+	*		rows => returns multiple row.
+	*		row => returns single row.		
+	* @return mixed $rows	
+	*/
+	public function executeQuery($sql, $type="rows")
+	{
+		if (isset($this->con)) {
+			$type = $this->exec($sql, $type);
+			if ($type == 'exec') {
+				if ($this->result === false) {
+					$this->getErrorMessage();
+					throw new utilDbExeption(implode('<br />', $this->logs));
+				}
+				return $this->result;
+			}
+			$rows = $this->getResult($type);
+			return $rows;
+		}
+	}
+
+	/*
+	* Get the last generated id from insert
+	* @param string $table => table name
+	* @return int last insert id.	
+	*/
+	public function lastInsertID($name = null)
+	{
+	    return $this->con->lastInsertId($name);
+	}
+	
+	/*
+	* Get result by type
+	* @param string $type => rows|row|exec
+	*		rows => multiple result
+	*		row  => single result
+	*		exec => return 1 if successfull, otherwise 0
+	* return mixed $rows
+	*/
+	private function getResult($type)
+	{
+		if($type == 'rows') 		return $this->getRows();
+ 		else if($type == 'row')	    return $this->getRow();
+ 		else if($type == 'exec')    return $this->result;
+	}
+
+	private function getRows()
+	{
+ 		$rows = array();
+ 		while ($row = $this->getRow())	$rows[] = $row;
+ 		return $rows;
+ 	}
+
+	private function getRow()
+	{
+	    if(!$this->result) return;
+		$row =  $this->result->fetch(PDO::FETCH_ASSOC);
+ 		return $row;
+ 	}
+
+	private function exec($sql, $type)
+	{
+		if ($this->isSelect(trim($sql)) === 0) {
+ 			$this->result 	= $this->con->query($sql);
+ 		} else {
+ 			$this->result	= $this->con->exec($sql);
+ 			$type			= 'exec';
+ 		}
+ 		return $type;
+	}
+
+	private function isSelect($sql)
+	{
+		return stripos($sql, 'select');
+	}
+
+	private function getErrorMessage()
+	{
+		$aErrorInfo     = $this->con->errorInfo();
+        $this->logs[]   =  $aErrorInfo[2];
+	}
+
+	public function disconnect()
+	{
+		$this->con->disconnect();
+	}
+}

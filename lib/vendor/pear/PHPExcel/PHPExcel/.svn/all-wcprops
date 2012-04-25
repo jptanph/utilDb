@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel
+END
+RichText.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/RichText.php
+END
+DocumentProperties.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/DocumentProperties.php
+END
+HashTable.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/HashTable.php
+END
+Calculation.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/Calculation.php
+END
+ReferenceHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/ReferenceHelper.php
+END
+Autoloader.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/Autoloader.php
+END
+IOFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/IOFactory.php
+END
+Style.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/Style.php
+END
+Settings.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/Settings.php
+END
+NamedRange.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/NamedRange.php
+END
+Comment.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/Comment.php
+END
+DocumentSecurity.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/DocumentSecurity.php
+END
+Worksheet.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/Worksheet.php
+END
+CachedObjectStorageFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/CachedObjectStorageFactory.php
+END
+IComparable.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/IComparable.php
+END
+Cell.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/Cell.php
+END
+WorksheetIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/WorksheetIterator.php
+END

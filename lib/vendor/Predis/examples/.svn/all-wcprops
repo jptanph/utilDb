@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/Predis/examples
+END
+MultipleSetAndGet.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/Predis/examples/MultipleSetAndGet.php
+END
+MultiExecTransactionsWithCAS.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/Predis/examples/MultiExecTransactionsWithCAS.php
+END
+SimpleDebuggableConnection.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/Predis/examples/SimpleDebuggableConnection.php
+END
+CustomDistributionStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/Predis/examples/CustomDistributionStrategy.php
+END
+SharedConfigurations.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/Predis/examples/SharedConfigurations.php
+END
+CommandPipeline.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/Predis/examples/CommandPipeline.php
+END
+PubSubContext.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/Predis/examples/PubSubContext.php
+END
+SimpleSetAndGet.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/Predis/examples/SimpleSetAndGet.php
+END

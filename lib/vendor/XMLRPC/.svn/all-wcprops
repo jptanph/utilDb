@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/XMLRPC
+END
+xmlrpc_wrappers.inc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/XMLRPC/xmlrpc_wrappers.inc
+END
+xmlrpcs.inc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/XMLRPC/xmlrpcs.inc
+END
+xmlrpc.inc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/XMLRPC/xmlrpc.inc
+END

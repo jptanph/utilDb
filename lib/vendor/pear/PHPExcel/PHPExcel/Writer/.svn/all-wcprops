@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/Writer
+END
+Excel2007.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/Writer/Excel2007.php
+END
+PDF.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/Writer/PDF.php
+END
+CSV.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/Writer/CSV.php
+END
+Serialized.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/Writer/Serialized.php
+END
+HTML.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/Writer/HTML.php
+END
+Excel5.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/Writer/Excel5.php
+END
+IWriter.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/Writer/IWriter.php
+END
