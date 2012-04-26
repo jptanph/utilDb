@@ -7,13 +7,13 @@
 * utilDbclass
 */
 
-require_once (SERVER_DOCUMENT_ROOT .DS.'utilDb/lib/util/utilSplClass.php');
-require_once (SERVER_DOCUMENT_ROOT .DS.'utilDb/lib/util/Db/utilDbAdapter.php');
-require_once (SERVER_DOCUMENT_ROOT .DS.'utilDb/lib/util/Db/utilDbDriverCommon.php');
-require_once (SERVER_DOCUMENT_ROOT .DS.'utilDb/lib/util/Db/utilDbDriverInterface.php');
-require_once (SERVER_DOCUMENT_ROOT .DS.'utilDb/lib/util/Db/utilDbDriverMysql.php');
-require_once (SERVER_DOCUMENT_ROOT .DS.'utilDb/lib/util/Db/utilDbModel.php');
-require_once (SERVER_DOCUMENT_ROOT .DS.'utilDb/lib/util/Db/utilDbUtility.php');
+require_once (SERVER_DOCUMENT_ROOT .DS. 'utilDb/lib/util/utilSplClass.php');
+require_once (SERVER_DOCUMENT_ROOT .DS. 'utilDb/lib/util/Db/utilDbAdapter.php');
+require_once (SERVER_DOCUMENT_ROOT .DS. 'utilDb/lib/util/Db/utilDbDriverCommon.php');
+require_once (SERVER_DOCUMENT_ROOT .DS. 'utilDb/lib/util/Db/utilDbDriverInterface.php');
+require_once (SERVER_DOCUMENT_ROOT .DS. 'utilDb/lib/util/Db/utilDbDriverMysql.php');
+require_once (SERVER_DOCUMENT_ROOT .DS. 'utilDb/lib/util/Db/utilDbModel.php');
+require_once (SERVER_DOCUMENT_ROOT .DS. 'utilDb/lib/util/Db/utilDbUtility.php');
 
 class utilDb extends utilDbModel
 {
@@ -236,4 +236,9 @@ class utilDb extends utilDbModel
 
         return $mResult;
     }
+	
+	final public function selectAll( $sTblName , $aTblFields = NULL , $sWhereClause = NULL )
+	{
+		// if($aTblFields)
+	}
 }

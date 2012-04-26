@@ -4,6 +4,10 @@ require_once('lib/Common.php');
 
 $sql = new utilDb();
 
-$ssql = "SELECT * FROM pg_scheduleradv_data";
+$aFields[] = array(
+	'a' => 1,
+	'b' => 2
+);
 
-var_dump($sql->query($ssql)); 
+
+echo $sql->getInsertQueryLoop('mytable',$aFields);
