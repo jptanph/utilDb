@@ -202,31 +202,40 @@ class utilDb extends utilDbModel
 	
 	private function checkValue($value){
 
-        if($value == "null" || strtolower($value) == "now()"){
+        if($value == "null" || strtolower($value) == "now()")
+		{
             return $value;
         }
-        switch (strtolower(gettype($value))){
+		
+        switch (strtolower(gettype($value)))
+		{
             case 'string':
                 settype($value, 'string');
                 $value = "'".mysql_escape_string($value)."'";
                 break;
-            case 'integer':
+            
+			case 'integer':
                 settype($value, 'integer');
                 break;
             case 'double' :
-            case 'float' :
+            
+			case 'float' :
                 settype($value, 'float');
                 break;
-            case 'boolean':
+            
+			case 'boolean':
                 settype($value, 'boolean');
                 break;
-            case 'array':
+            
+			case 'array':
                 $value = "'".mysql_escape_string(implode(',', $value))."'";
                 break;
-            case 'null' :
+            
+			case 'null' :
                 $value = 'null';
                 break;
-        }
+        
+		}
         return $value;
     }
 
@@ -239,6 +248,7 @@ class utilDb extends utilDbModel
 	
 	final public function selectAll( $sTblName , $aTblFields = NULL , $sWhereClause = NULL )
 	{
-		// if($aTblFields)
+		$sSql = "SELECT * FROM $sTblName";
+		return $this->query($sSql);
 	}
 }
