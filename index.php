@@ -2,7 +2,7 @@
 
 require_once('lib/Common.php');
 
-$sql = new utilDb();
+$sql = new utilDb2();
 
 $aFields[] = array
 (
@@ -11,7 +11,4 @@ $aFields[] = array
 );
 
 
-echo $sql->getInsertQueryLoop('mytable',$aFields);
-
-
-var_dump($sql->selectAll('pg_scheduleradv_data'));
+echo $sql->getInsertQueryLoop('test',$aFields)->debug();
