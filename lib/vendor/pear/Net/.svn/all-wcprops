@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Net
+END
+FTP.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Net/FTP.php
+END
+URL.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Net/URL.php
+END
+DNS.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Net/DNS.php
+END
+URL2.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Net/URL2.php
+END
+Curl.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Net/Curl.php
+END
+Socket.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Net/Socket.php
+END

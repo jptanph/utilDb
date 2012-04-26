@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Log
+END
+error_log.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Log/error_log.php
+END
+win.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Log/win.php
+END
+sql.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Log/sql.php
+END
+sqlite.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Log/sqlite.php
+END
+composite.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Log/composite.php
+END
+console.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Log/console.php
+END
+daemon.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Log/daemon.php
+END
+display.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Log/display.php
+END
+null.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Log/null.php
+END
+mcal.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Log/mcal.php
+END
+file.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Log/file.php
+END
+syslog.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Log/syslog.php
+END
+mail.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Log/mail.php
+END
+firebug.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Log/firebug.php
+END
+mdb2.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Log/mdb2.php
+END
+observer.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/Log/observer.php
+END

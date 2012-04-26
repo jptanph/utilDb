@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/Shared/JAMA
+END
+LUDecomposition.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/Shared/JAMA/LUDecomposition.php
+END
+CholeskyDecomposition.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/Shared/JAMA/CholeskyDecomposition.php
+END
+SingularValueDecomposition.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/Shared/JAMA/SingularValueDecomposition.php
+END
+QRDecomposition.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/Shared/JAMA/QRDecomposition.php
+END
+EigenvalueDecomposition.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/Shared/JAMA/EigenvalueDecomposition.php
+END
+Matrix.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/usextmanager/!svn/ver/134/pr/lib/vendor/pear/PHPExcel/PHPExcel/Shared/JAMA/Matrix.php
+END
