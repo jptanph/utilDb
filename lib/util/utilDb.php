@@ -246,9 +246,20 @@ class utilDb extends utilDbModel
         return $mResult;
     }
 	
+	/** John **/
 	final public function selectAll( $sTblName , $aTblFields = NULL , $sWhereClause = NULL )
 	{
-		$sSql = "SELECT * FROM $sTblName";
-		return $this->query($sSql);
+		$sSql = "";
+		$sFrom = " FROM " . $sTblName;
+		
+		if($aTblFields && is_array($aTblFields))
+		{
+			$sFields = implode(',',$aTblFields);
+		}
+		
+		$sSelect = " SELECT " . ( ( $sFields ) ? $sFields : " * "  );
+		$sWhere = ( $sWhereClause ) ? $sWhereClause : "";
+		echo $sSql = $sSelect . $sFrom . $sWhere;
 	}
+	
 }

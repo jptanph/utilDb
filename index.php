@@ -11,7 +11,10 @@ $aFields[] = array
 );
 
 
-echo $sql->getInsertQueryLoop('mytable',$aFields);
 
-
-var_dump($sql->selectAll('pg_scheduleradv_data'));
+$aFields = array(
+	'title',
+	'location',
+	'start_date'
+);
+$sql->selectAll('pg_scheduleradv_data',$aFields);
