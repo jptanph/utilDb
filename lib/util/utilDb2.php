@@ -262,6 +262,12 @@ class utilDb2 extends utilDbModel
 	{
 		return $this->str;
 	}
+	
+	// Execute method chain
+	final public function execute()
+	{
+		return $this->query($this->str);
+	}
 }
 
 

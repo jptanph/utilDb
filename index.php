@@ -1,8 +1,9 @@
+
 <?php
 
 require_once('lib/Common.php');
 
-$sql = new utilDb2();
+$sql = new utilDb();
 
 $aFields[] = array
 (
@@ -11,4 +12,10 @@ $aFields[] = array
 );
 
 
-echo $sql->getInsertQueryLoop('test',$aFields)->debug();
+
+$aFields = array(
+	'title',
+	'location',
+	'start_date'
+);
+$sql->selectAll('pg_scheduleradv_data',$aFields);
