@@ -1,0 +1,1 @@
+<?phprequire_once('lib/Common.php');$sql = new utilDb2();$aFields[] = array(	'username' => 'Ar');$ss	= $sql->getInsertQueryLoop('test',$aFields)->execute();
